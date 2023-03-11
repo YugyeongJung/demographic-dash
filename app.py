@@ -92,7 +92,8 @@ app.layout = dbc.Container(
     dbc.Row([
         dbc.Col([
             dbc.Row([html.Div("KOREA DEMOGRAPHIC 2000-2022", className = 'title'), 
-                     html.Div('Birth, death, marriage, and divorce in South Korea from 2000 to 2022')],  style={"background": "white", 'margin-bottom': 3}),
+                     html.Div('Birth, death, marriage, and divorce in South Korea from 2000 to 2022'),
+                     html.Div('designed and developed by Yugyeong Jung')],  style={"background": "white", 'margin-bottom': 3}),
             dbc.Row(
                     [
                     dbc.Col(
@@ -196,7 +197,7 @@ app.layout = dbc.Container(
                                             dbc.Col(html.Div([dcc.Graph(
                                                                     id='fig_bar_birth_death',
                                                                     figure=fig_bar_birth_death
-                                                                )], className="pretty_container", style={'margin-left': '0rem', 'margin-right': '-1rem'})),
+                                                                )], className="pretty_container", style={'margin-left': '0rem', 'margin-right': '-2rem'})),
                                             dbc.Col(html.Div([dcc.Graph(
                                                                     id='fig_bar_marriage_divorce',
                                                                     figure=fig_bar_marriage_divorce
