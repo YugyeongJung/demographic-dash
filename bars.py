@@ -30,7 +30,7 @@ def bars(demographic, mode, bar_colors, range_slider_value, location):
     fig_bars.update_layout(
             barmode='relative',
             margin=dict(l=20, r=0, t=25, b=0),
-            width = 360,
+            width = 350,
             height = 170,
             plot_bgcolor='white',
             legend=dict(font=dict(size= 8), 
