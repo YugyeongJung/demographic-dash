@@ -28,8 +28,8 @@ def pies(demographic, mode, pie_colors, range_slider_value):
                                           hole=.3,
                                           marker_colors = pie_colors['Divorce'])])
     
-    fig_pies.update_layout(margin=dict(l=30, r=0, t=25, b=0), 
-                           width = 170, 
+    fig_pies.update_layout(margin=dict(l=0, r=0, t=25, b=0), 
+                           width = 160, 
                            height = 170,
                            showlegend = False,
                            title = {'text': '{}: {} - {}'.format(mode, range_slider_value[0], range_slider_value[1]),
